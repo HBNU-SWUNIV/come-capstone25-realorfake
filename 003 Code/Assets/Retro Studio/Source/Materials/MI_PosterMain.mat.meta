@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1d099d31c8a6c34fb6ff36634d8ab6e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Materials/MI_PosterMain.mat
+  uploadId: 488947

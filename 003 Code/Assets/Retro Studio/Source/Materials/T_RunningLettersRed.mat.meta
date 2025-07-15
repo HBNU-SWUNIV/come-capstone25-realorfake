@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0da2d7e70dead0b4ab6ff31f86b6dc8a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Materials/T_RunningLettersRed.mat
+  uploadId: 488947

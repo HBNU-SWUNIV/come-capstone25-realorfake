@@ -1,0 +1,10 @@
+{
+    "uid" : "0",
+    "email" : "email",
+    "name" : "name",
+    "password" : "hashedpassword",
+    "level" : "1",
+    "exp" : "20",
+    "money" : "9999",
+    "boxSize" : "20"
+}

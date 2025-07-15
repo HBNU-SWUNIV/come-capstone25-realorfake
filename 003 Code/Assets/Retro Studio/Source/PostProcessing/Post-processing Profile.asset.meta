@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bdb1acc9050bc2749b7aef7f8afb07c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/PostProcessing/Post-processing Profile.asset
+  uploadId: 488947

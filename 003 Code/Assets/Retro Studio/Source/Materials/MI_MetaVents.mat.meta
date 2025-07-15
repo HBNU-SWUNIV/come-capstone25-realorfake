@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bdd901f3bd1c65a44b8d4dbc6d92e9d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Materials/MI_MetaVents.mat
+  uploadId: 488947

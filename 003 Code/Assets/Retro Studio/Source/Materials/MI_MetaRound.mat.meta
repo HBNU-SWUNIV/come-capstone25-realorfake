@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aad7d230616676a488e2f073956b84d1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Materials/MI_MetaRound.mat
+  uploadId: 488947

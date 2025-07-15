@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 269b27eb5f7de084bb30529b42fa9c58
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Materials/MI_Feather.mat
+  uploadId: 488947

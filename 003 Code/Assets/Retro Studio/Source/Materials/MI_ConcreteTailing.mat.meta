@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0d2153fd5b3baad40981930c1ef5a689
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Materials/MI_ConcreteTailing.mat
+  uploadId: 488947

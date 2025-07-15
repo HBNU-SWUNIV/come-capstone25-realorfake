@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d1de8167299d0343b502f31c7de8fdc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Materials/MI_Glow_Blue.mat
+  uploadId: 488947

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ce866e9caf708b469a0ee5bac6a382e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Materials/T_RunningDotsGreen.mat
+  uploadId: 488947

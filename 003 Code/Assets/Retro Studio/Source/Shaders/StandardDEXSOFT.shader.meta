@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3705912b009d73a449e5196bfd03b1db
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216767
+  packageName: Retro Studio
+  packageVersion: 1.0
+  assetPath: Assets/Retro Studio/Source/Shaders/StandardDEXSOFT.shader
+  uploadId: 488947
