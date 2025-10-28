@@ -1,0 +1,6 @@
+[WinError 3] 지정된 경로를 찾을 수 없습니다: 'C:\\Users\\chtac\\AppData\\LocalLow\\DefaultCompany\\Capstone\\meshroom_gui.exe\\rembg'
+'NoneType' object has no attribute 'write'
+'NoneType' object has no attribute 'write'
+expected str, bytes or os.PathLike object, not tuple
+expected str, bytes or os.PathLike object, not tuple
+'NoneType' object has no attribute 'write'

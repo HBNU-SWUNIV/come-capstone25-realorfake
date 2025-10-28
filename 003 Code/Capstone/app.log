@@ -1,0 +1,380 @@
+2025-05-11 17:11:42,614 - INFO - 프로세스 시작
+2025-05-11 17:11:42,615 - INFO - 입력 디렉토리: C:\Users\chtac\AppData\LocalLow\DefaultCompany\Capstone\meshroom_gui.exe
+2025-05-11 17:11:42,615 - ERROR - 오류 발생
+Traceback (most recent call last):
+  File "meshroom_gui.py", line 38, in process_images_and_run_meshroom
+  File "<frozen os>", line 227, in makedirs
+FileNotFoundError: [WinError 3] 지정된 경로를 찾을 수 없습니다: 'C:\\Users\\chtac\\AppData\\LocalLow\\DefaultCompany\\Capstone\\meshroom_gui.exe\\rembg'
+2025-05-11 17:39:12,703 - INFO - 프로세스 시작
+2025-05-11 17:39:12,703 - INFO - 입력 디렉토리: C:/RecordedFrames/20250511_173815_703/
+2025-05-11 17:39:12,707 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250511_173815_703\20250511_173815_712.jpg
+2025-05-11 17:39:13,140 - DEBUG - Starting new HTTPS connection (1): github.com:443
+2025-05-11 17:39:13,413 - DEBUG - https://github.com:443 "GET /danielgatis/rembg/releases/download/v0.0.0/u2net.onnx HTTP/1.1" 302 0
+2025-05-11 17:39:13,414 - DEBUG - Starting new HTTPS connection (1): objects.githubusercontent.com:443
+2025-05-11 17:39:14,178 - DEBUG - https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/286500101/e39324e8-fce7-44ee-ae2f-12c49df29c51?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250511T083917Z&X-Amz-Expires=300&X-Amz-Signature=8d35ac4a46dbd20660aeac17142b0c778a1091934cc4ab1551d809f225320a44&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Du2net.onnx&response-content-type=application%2Foctet-stream HTTP/1.1" 200 175997641
+2025-05-11 17:39:14,179 - ERROR - 오류 발생
+Traceback (most recent call last):
+  File "meshroom_gui.py", line 57, in process_images_and_run_meshroom
+  File "meshroom_gui.py", line 24, in remove_background
+  File "rembg\bg.py", line 274, in remove
+  File "rembg\session_factory.py", line 41, in new_session
+  File "rembg\sessions\base.py", line 27, in __init__
+  File "rembg\sessions\u2net.py", line 62, in download_models
+  File "pooch\core.py", line 239, in retrieve
+  File "pooch\core.py", line 807, in stream_download
+  File "pooch\downloaders.py", line 229, in __call__
+  File "tqdm\std.py", line 1098, in __init__
+  File "tqdm\std.py", line 1347, in refresh
+  File "tqdm\std.py", line 1495, in display
+  File "tqdm\std.py", line 459, in print_status
+  File "tqdm\std.py", line 452, in fp_write
+  File "tqdm\utils.py", line 140, in __getattr__
+AttributeError: 'NoneType' object has no attribute 'write'
+2025-05-11 18:13:43,155 - INFO - 프로세스 시작
+2025-05-11 18:13:43,156 - INFO - 입력 디렉토리: C:/RecordedFrames/20250511_181323_241/
+2025-05-11 18:13:43,160 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250511_181323_241\20250511_181323_247.jpg
+2025-05-11 18:13:43,648 - DEBUG - Starting new HTTPS connection (1): github.com:443
+2025-05-11 18:13:43,907 - DEBUG - https://github.com:443 "GET /danielgatis/rembg/releases/download/v0.0.0/u2net.onnx HTTP/1.1" 302 0
+2025-05-11 18:13:43,908 - DEBUG - Starting new HTTPS connection (1): objects.githubusercontent.com:443
+2025-05-11 18:13:44,671 - DEBUG - https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/286500101/e39324e8-fce7-44ee-ae2f-12c49df29c51?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250511T091348Z&X-Amz-Expires=300&X-Amz-Signature=9090473efa7c278a0ceeede0d9d1bb84a809ff2dfe175d441eea10f3a1734826&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Du2net.onnx&response-content-type=application%2Foctet-stream HTTP/1.1" 200 175997641
+2025-05-11 18:13:44,673 - ERROR - 오류 발생
+Traceback (most recent call last):
+  File "meshroom_gui.py", line 57, in process_images_and_run_meshroom
+  File "meshroom_gui.py", line 24, in remove_background
+  File "rembg\bg.py", line 274, in remove
+  File "rembg\session_factory.py", line 41, in new_session
+  File "rembg\sessions\base.py", line 27, in __init__
+  File "rembg\sessions\u2net.py", line 62, in download_models
+  File "pooch\core.py", line 239, in retrieve
+  File "pooch\core.py", line 807, in stream_download
+  File "pooch\downloaders.py", line 229, in __call__
+  File "tqdm\std.py", line 1098, in __init__
+  File "tqdm\std.py", line 1347, in refresh
+  File "tqdm\std.py", line 1495, in display
+  File "tqdm\std.py", line 459, in print_status
+  File "tqdm\std.py", line 452, in fp_write
+  File "tqdm\utils.py", line 140, in __getattr__
+AttributeError: 'NoneType' object has no attribute 'write'
+2025-05-20 15:36:55,618 - INFO - 프로세스 시작
+2025-05-20 15:36:55,619 - INFO - 입력 디렉토리: C:/RecordedFrames/20250520_153556_316/
+2025-05-20 15:36:55,623 - ERROR - 오류 발생
+Traceback (most recent call last):
+  File "meshroom_process.py", line 48, in process
+  File "<frozen ntpath>", line 256, in basename
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not tuple
+2025-05-20 15:39:32,050 - INFO - 프로세스 시작
+2025-05-20 15:39:32,050 - INFO - 입력 디렉토리: C:/RecordedFrames/20250520_153913_869/
+2025-05-20 15:39:32,055 - ERROR - 오류 발생
+Traceback (most recent call last):
+  File "meshroom_process.py", line 48, in process
+  File "<frozen ntpath>", line 256, in basename
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not tuple
+2025-05-20 16:37:06,021 - INFO - 프로세스 시작
+2025-05-20 16:37:06,021 - INFO - 입력 디렉토리: C:/RecordedFrames/20250520_163606_575/
+2025-05-20 16:37:06,026 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_163606_575\20250520_163606_582.jpg
+2025-05-20 16:37:06,026 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_163606_575\20250520_163606_582.jpg
+2025-05-20 16:37:06,502 - DEBUG - Starting new HTTPS connection (1): github.com:443
+2025-05-20 16:37:06,791 - DEBUG - https://github.com:443 "GET /danielgatis/rembg/releases/download/v0.0.0/u2net.onnx HTTP/1.1" 302 0
+2025-05-20 16:37:06,793 - DEBUG - Starting new HTTPS connection (1): objects.githubusercontent.com:443
+2025-05-20 16:37:07,558 - DEBUG - https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/286500101/e39324e8-fce7-44ee-ae2f-12c49df29c51?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250520T073708Z&X-Amz-Expires=300&X-Amz-Signature=81afe1b96534a1c741213b00615caebfbe5595cf38104c367670a0c8c37536a5&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Du2net.onnx&response-content-type=application%2Foctet-stream HTTP/1.1" 200 175997641
+2025-05-20 16:37:07,560 - ERROR - 오류 발생
+Traceback (most recent call last):
+  File "meshroom_process.py", line 54, in process
+  File "meshroom_process.py", line 22, in remove_background
+  File "rembg\bg.py", line 274, in remove
+  File "rembg\session_factory.py", line 41, in new_session
+  File "rembg\sessions\base.py", line 27, in __init__
+  File "rembg\sessions\u2net.py", line 62, in download_models
+  File "pooch\core.py", line 239, in retrieve
+  File "pooch\core.py", line 807, in stream_download
+  File "pooch\downloaders.py", line 229, in __call__
+  File "tqdm\std.py", line 1098, in __init__
+  File "tqdm\std.py", line 1347, in refresh
+  File "tqdm\std.py", line 1495, in display
+  File "tqdm\std.py", line 459, in print_status
+  File "tqdm\std.py", line 452, in fp_write
+  File "tqdm\utils.py", line 140, in __getattr__
+AttributeError: 'NoneType' object has no attribute 'write'
+2025-05-20 17:03:11,437 - INFO - 프로세스 시작
+2025-05-20 17:03:11,437 - INFO - 입력 디렉토리: C:/RecordedFrames/20250520_170210_756/
+2025-05-20 17:03:11,441 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170210_764.jpg
+2025-05-20 17:03:11,441 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170210_764.jpg
+2025-05-20 17:03:11,905 - DEBUG - Starting new HTTPS connection (1): github.com:443
+2025-05-20 17:03:12,172 - DEBUG - https://github.com:443 "GET /danielgatis/rembg/releases/download/v0.0.0/u2net.onnx HTTP/1.1" 302 0
+2025-05-20 17:03:12,173 - DEBUG - Starting new HTTPS connection (1): objects.githubusercontent.com:443
+2025-05-20 17:03:12,944 - DEBUG - https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/286500101/e39324e8-fce7-44ee-ae2f-12c49df29c51?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250520T080313Z&X-Amz-Expires=300&X-Amz-Signature=27b97b27e00509150cc06884be4213304b68293f91473b61289f591a7fbc4115&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Du2net.onnx&response-content-type=application%2Foctet-stream HTTP/1.1" 200 175997641
+2025-05-20 17:03:18,051 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170210_764.jpg
+2025-05-20 17:03:18,051 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170210_868.jpg
+2025-05-20 17:03:18,051 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170210_868.jpg
+2025-05-20 17:03:19,260 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170210_868.jpg
+2025-05-20 17:03:19,260 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170210_979.jpg
+2025-05-20 17:03:19,260 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170210_979.jpg
+2025-05-20 17:03:20,578 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170210_979.jpg
+2025-05-20 17:03:20,579 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_091.jpg
+2025-05-20 17:03:20,579 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_091.jpg
+2025-05-20 17:03:21,818 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_091.jpg
+2025-05-20 17:03:21,818 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_201.jpg
+2025-05-20 17:03:21,818 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_201.jpg
+2025-05-20 17:03:23,055 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_201.jpg
+2025-05-20 17:03:23,055 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_311.jpg
+2025-05-20 17:03:23,055 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_311.jpg
+2025-05-20 17:03:24,319 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_311.jpg
+2025-05-20 17:03:24,319 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_423.jpg
+2025-05-20 17:03:24,319 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_423.jpg
+2025-05-20 17:03:25,652 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_423.jpg
+2025-05-20 17:03:25,652 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_535.jpg
+2025-05-20 17:03:25,652 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_535.jpg
+2025-05-20 17:03:26,951 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_535.jpg
+2025-05-20 17:03:26,951 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_645.jpg
+2025-05-20 17:03:26,951 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_645.jpg
+2025-05-20 17:03:28,240 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_645.jpg
+2025-05-20 17:03:28,240 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_756.jpg
+2025-05-20 17:03:28,240 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_756.jpg
+2025-05-20 17:03:29,516 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_756.jpg
+2025-05-20 17:03:29,516 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_867.jpg
+2025-05-20 17:03:29,517 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_867.jpg
+2025-05-20 17:03:30,795 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_867.jpg
+2025-05-20 17:03:30,795 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170211_978.jpg
+2025-05-20 17:03:30,795 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170211_978.jpg
+2025-05-20 17:03:32,041 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170211_978.jpg
+2025-05-20 17:03:32,041 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_091.jpg
+2025-05-20 17:03:32,041 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_091.jpg
+2025-05-20 17:03:33,273 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_091.jpg
+2025-05-20 17:03:33,273 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_202.jpg
+2025-05-20 17:03:33,273 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_202.jpg
+2025-05-20 17:03:34,547 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_202.jpg
+2025-05-20 17:03:34,547 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_312.jpg
+2025-05-20 17:03:34,547 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_312.jpg
+2025-05-20 17:03:35,783 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_312.jpg
+2025-05-20 17:03:35,783 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_423.jpg
+2025-05-20 17:03:35,784 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_423.jpg
+2025-05-20 17:03:37,020 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_423.jpg
+2025-05-20 17:03:37,020 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_520.jpg
+2025-05-20 17:03:37,020 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_520.jpg
+2025-05-20 17:03:38,332 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_520.jpg
+2025-05-20 17:03:38,332 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_632.jpg
+2025-05-20 17:03:38,332 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_632.jpg
+2025-05-20 17:03:39,620 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_632.jpg
+2025-05-20 17:03:39,620 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_743.jpg
+2025-05-20 17:03:39,620 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_743.jpg
+2025-05-20 17:03:40,967 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_743.jpg
+2025-05-20 17:03:40,967 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_854.jpg
+2025-05-20 17:03:40,968 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_854.jpg
+2025-05-20 17:03:42,200 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_854.jpg
+2025-05-20 17:03:42,201 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170212_965.jpg
+2025-05-20 17:03:42,201 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170212_965.jpg
+2025-05-20 17:03:43,463 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170212_965.jpg
+2025-05-20 17:03:43,463 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_075.jpg
+2025-05-20 17:03:43,463 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_075.jpg
+2025-05-20 17:03:44,743 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_075.jpg
+2025-05-20 17:03:44,743 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_185.jpg
+2025-05-20 17:03:44,743 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_185.jpg
+2025-05-20 17:03:46,020 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_185.jpg
+2025-05-20 17:03:46,020 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_296.jpg
+2025-05-20 17:03:46,020 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_296.jpg
+2025-05-20 17:03:47,287 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_296.jpg
+2025-05-20 17:03:47,287 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_407.jpg
+2025-05-20 17:03:47,287 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_407.jpg
+2025-05-20 17:03:48,586 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_407.jpg
+2025-05-20 17:03:48,586 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_518.jpg
+2025-05-20 17:03:48,586 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_518.jpg
+2025-05-20 17:03:49,884 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_518.jpg
+2025-05-20 17:03:49,884 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_629.jpg
+2025-05-20 17:03:49,884 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_629.jpg
+2025-05-20 17:03:51,187 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_629.jpg
+2025-05-20 17:03:51,187 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_740.jpg
+2025-05-20 17:03:51,187 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_740.jpg
+2025-05-20 17:03:52,510 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_740.jpg
+2025-05-20 17:03:52,510 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_851.jpg
+2025-05-20 17:03:52,510 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_851.jpg
+2025-05-20 17:03:53,910 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_851.jpg
+2025-05-20 17:03:53,910 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170213_961.jpg
+2025-05-20 17:03:53,910 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170213_961.jpg
+2025-05-20 17:03:55,241 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170213_961.jpg
+2025-05-20 17:03:55,241 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_072.jpg
+2025-05-20 17:03:55,241 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_072.jpg
+2025-05-20 17:03:56,636 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_072.jpg
+2025-05-20 17:03:56,636 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_184.jpg
+2025-05-20 17:03:56,636 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_184.jpg
+2025-05-20 17:03:57,947 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_184.jpg
+2025-05-20 17:03:57,947 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_294.jpg
+2025-05-20 17:03:57,947 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_294.jpg
+2025-05-20 17:03:59,224 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_294.jpg
+2025-05-20 17:03:59,224 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_406.jpg
+2025-05-20 17:03:59,224 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_406.jpg
+2025-05-20 17:04:00,525 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_406.jpg
+2025-05-20 17:04:00,525 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_517.jpg
+2025-05-20 17:04:00,525 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_517.jpg
+2025-05-20 17:04:01,815 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_517.jpg
+2025-05-20 17:04:01,816 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_628.jpg
+2025-05-20 17:04:01,816 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_628.jpg
+2025-05-20 17:04:03,090 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_628.jpg
+2025-05-20 17:04:03,091 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_740.jpg
+2025-05-20 17:04:03,091 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_740.jpg
+2025-05-20 17:04:04,369 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_740.jpg
+2025-05-20 17:04:04,369 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_850.jpg
+2025-05-20 17:04:04,369 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_850.jpg
+2025-05-20 17:04:05,647 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_850.jpg
+2025-05-20 17:04:05,647 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170214_962.jpg
+2025-05-20 17:04:05,647 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170214_962.jpg
+2025-05-20 17:04:06,909 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170214_962.jpg
+2025-05-20 17:04:06,909 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_073.jpg
+2025-05-20 17:04:06,909 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_073.jpg
+2025-05-20 17:04:08,187 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_073.jpg
+2025-05-20 17:04:08,187 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_183.jpg
+2025-05-20 17:04:08,187 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_183.jpg
+2025-05-20 17:04:09,509 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_183.jpg
+2025-05-20 17:04:09,509 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_295.jpg
+2025-05-20 17:04:09,509 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_295.jpg
+2025-05-20 17:04:10,821 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_295.jpg
+2025-05-20 17:04:10,821 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_406.jpg
+2025-05-20 17:04:10,821 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_406.jpg
+2025-05-20 17:04:12,185 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_406.jpg
+2025-05-20 17:04:12,185 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_517.jpg
+2025-05-20 17:04:12,185 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_517.jpg
+2025-05-20 17:04:13,464 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_517.jpg
+2025-05-20 17:04:13,465 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_628.jpg
+2025-05-20 17:04:13,465 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_628.jpg
+2025-05-20 17:04:14,794 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_628.jpg
+2025-05-20 17:04:14,794 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_739.jpg
+2025-05-20 17:04:14,794 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_739.jpg
+2025-05-20 17:04:16,068 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_739.jpg
+2025-05-20 17:04:16,068 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_849.jpg
+2025-05-20 17:04:16,068 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_849.jpg
+2025-05-20 17:04:17,320 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_849.jpg
+2025-05-20 17:04:17,320 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170215_960.jpg
+2025-05-20 17:04:17,320 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170215_960.jpg
+2025-05-20 17:04:18,626 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170215_960.jpg
+2025-05-20 17:04:18,626 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_059.jpg
+2025-05-20 17:04:18,626 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_059.jpg
+2025-05-20 17:04:19,908 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_059.jpg
+2025-05-20 17:04:19,908 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_169.jpg
+2025-05-20 17:04:19,908 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_169.jpg
+2025-05-20 17:04:21,197 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_169.jpg
+2025-05-20 17:04:21,197 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_280.jpg
+2025-05-20 17:04:21,197 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_280.jpg
+2025-05-20 17:04:22,457 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_280.jpg
+2025-05-20 17:04:22,457 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_392.jpg
+2025-05-20 17:04:22,457 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_392.jpg
+2025-05-20 17:04:23,748 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_392.jpg
+2025-05-20 17:04:23,748 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_503.jpg
+2025-05-20 17:04:23,748 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_503.jpg
+2025-05-20 17:04:25,053 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_503.jpg
+2025-05-20 17:04:25,053 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_614.jpg
+2025-05-20 17:04:25,053 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_614.jpg
+2025-05-20 17:04:26,353 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_614.jpg
+2025-05-20 17:04:26,353 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_725.jpg
+2025-05-20 17:04:26,354 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_725.jpg
+2025-05-20 17:04:27,654 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_725.jpg
+2025-05-20 17:04:27,655 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_836.jpg
+2025-05-20 17:04:27,655 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_836.jpg
+2025-05-20 17:04:28,956 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_836.jpg
+2025-05-20 17:04:28,956 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170216_948.jpg
+2025-05-20 17:04:28,956 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170216_948.jpg
+2025-05-20 17:04:30,217 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170216_948.jpg
+2025-05-20 17:04:30,217 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_058.jpg
+2025-05-20 17:04:30,217 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_058.jpg
+2025-05-20 17:04:31,539 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_058.jpg
+2025-05-20 17:04:31,539 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_170.jpg
+2025-05-20 17:04:31,539 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_170.jpg
+2025-05-20 17:04:32,815 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_170.jpg
+2025-05-20 17:04:32,815 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_280.jpg
+2025-05-20 17:04:32,815 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_280.jpg
+2025-05-20 17:04:34,113 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_280.jpg
+2025-05-20 17:04:34,113 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_392.jpg
+2025-05-20 17:04:34,113 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_392.jpg
+2025-05-20 17:04:35,395 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_392.jpg
+2025-05-20 17:04:35,395 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_503.jpg
+2025-05-20 17:04:35,395 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_503.jpg
+2025-05-20 17:04:36,669 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_503.jpg
+2025-05-20 17:04:36,670 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_615.jpg
+2025-05-20 17:04:36,670 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_615.jpg
+2025-05-20 17:04:37,955 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_615.jpg
+2025-05-20 17:04:37,955 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_727.jpg
+2025-05-20 17:04:37,955 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_727.jpg
+2025-05-20 17:04:39,223 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_727.jpg
+2025-05-20 17:04:39,223 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_837.jpg
+2025-05-20 17:04:39,223 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_837.jpg
+2025-05-20 17:04:40,524 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_837.jpg
+2025-05-20 17:04:40,524 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170217_947.jpg
+2025-05-20 17:04:40,524 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170217_947.jpg
+2025-05-20 17:04:41,822 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170217_947.jpg
+2025-05-20 17:04:41,822 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_059.jpg
+2025-05-20 17:04:41,822 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_059.jpg
+2025-05-20 17:04:43,099 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_059.jpg
+2025-05-20 17:04:43,099 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_170.jpg
+2025-05-20 17:04:43,099 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_170.jpg
+2025-05-20 17:04:44,435 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_170.jpg
+2025-05-20 17:04:44,435 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_280.jpg
+2025-05-20 17:04:44,435 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_280.jpg
+2025-05-20 17:04:45,764 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_280.jpg
+2025-05-20 17:04:45,764 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_392.jpg
+2025-05-20 17:04:45,764 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_392.jpg
+2025-05-20 17:04:47,126 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_392.jpg
+2025-05-20 17:04:47,126 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_503.jpg
+2025-05-20 17:04:47,126 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_503.jpg
+2025-05-20 17:04:48,440 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_503.jpg
+2025-05-20 17:04:48,440 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_614.jpg
+2025-05-20 17:04:48,440 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_614.jpg
+2025-05-20 17:04:49,723 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_614.jpg
+2025-05-20 17:04:49,723 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_726.jpg
+2025-05-20 17:04:49,723 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_726.jpg
+2025-05-20 17:04:51,015 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_726.jpg
+2025-05-20 17:04:51,015 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_836.jpg
+2025-05-20 17:04:51,015 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_836.jpg
+2025-05-20 17:04:52,290 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_836.jpg
+2025-05-20 17:04:52,290 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170218_947.jpg
+2025-05-20 17:04:52,290 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170218_947.jpg
+2025-05-20 17:04:53,571 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170218_947.jpg
+2025-05-20 17:04:53,571 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_057.jpg
+2025-05-20 17:04:53,571 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_057.jpg
+2025-05-20 17:04:54,861 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_057.jpg
+2025-05-20 17:04:54,861 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_169.jpg
+2025-05-20 17:04:54,861 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_169.jpg
+2025-05-20 17:04:56,136 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_169.jpg
+2025-05-20 17:04:56,136 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_281.jpg
+2025-05-20 17:04:56,136 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_281.jpg
+2025-05-20 17:04:57,394 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_281.jpg
+2025-05-20 17:04:57,394 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_392.jpg
+2025-05-20 17:04:57,394 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_392.jpg
+2025-05-20 17:04:58,722 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_392.jpg
+2025-05-20 17:04:58,723 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_503.jpg
+2025-05-20 17:04:58,723 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_503.jpg
+2025-05-20 17:05:00,033 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_503.jpg
+2025-05-20 17:05:00,033 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_614.jpg
+2025-05-20 17:05:00,033 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_614.jpg
+2025-05-20 17:05:01,306 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_614.jpg
+2025-05-20 17:05:01,307 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_725.jpg
+2025-05-20 17:05:01,307 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_725.jpg
+2025-05-20 17:05:02,594 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_725.jpg
+2025-05-20 17:05:02,594 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_837.jpg
+2025-05-20 17:05:02,594 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_837.jpg
+2025-05-20 17:05:03,870 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_837.jpg
+2025-05-20 17:05:03,870 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170219_947.jpg
+2025-05-20 17:05:03,870 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170219_947.jpg
+2025-05-20 17:05:05,163 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170219_947.jpg
+2025-05-20 17:05:05,163 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170220_058.jpg
+2025-05-20 17:05:05,163 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170220_058.jpg
+2025-05-20 17:05:06,471 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170220_058.jpg
+2025-05-20 17:05:06,471 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170220_170.jpg
+2025-05-20 17:05:06,471 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170220_170.jpg
+2025-05-20 17:05:07,784 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170220_170.jpg
+2025-05-20 17:05:07,784 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170220_280.jpg
+2025-05-20 17:05:07,784 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170220_280.jpg
+2025-05-20 17:05:09,074 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170220_280.jpg
+2025-05-20 17:05:09,074 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170220_391.jpg
+2025-05-20 17:05:09,074 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170220_391.jpg
+2025-05-20 17:05:10,346 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170220_391.jpg
+2025-05-20 17:05:10,346 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170220_488.jpg
+2025-05-20 17:05:10,347 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170220_488.jpg
+2025-05-20 17:05:11,697 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170220_488.jpg
+2025-05-20 17:05:11,697 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170220_599.jpg
+2025-05-20 17:05:11,697 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170220_599.jpg
+2025-05-20 17:05:12,980 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170220_599.jpg
+2025-05-20 17:05:12,980 - DEBUG - 처리할 이미지: C:/RecordedFrames/20250520_170210_756\20250520_170220_710.jpg
+2025-05-20 17:05:12,980 - DEBUG - 배경제거 시작: C:/RecordedFrames/20250520_170210_756\20250520_170220_710.jpg
+2025-05-20 17:05:14,381 - DEBUG - 배경제거 완료: C:/RecordedFrames/20250520_170210_756\20250520_170220_710.jpg
+2025-05-20 17:05:14,381 - INFO - 모든 이미지 배경제거 완료
+2025-05-20 17:05:14,381 - DEBUG - 실행 명령: C:\Users\chtac\AppData\LocalLow\DefaultCompany\Capstone\Meshroom\meshroom_batch.exe --input C:/RecordedFrames/20250520_170210_756/rembg --output C:/RecordedFrames/20250520_170210_756/output
